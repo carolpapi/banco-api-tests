@@ -1,5 +1,5 @@
-const request = require('supertest');
-const { expect } = require('chai');
+import request from 'supertest';
+import { expect } from 'chai';
 
 describe('Login', () => {
     describe('POST /login', () => {

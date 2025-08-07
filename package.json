@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "mocha ./test/**/*.js --timeout=200000 --reporter mochawesome"
   },
